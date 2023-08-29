@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    .job_posting {
+        color: black;
+        font-weight: bold;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: 800px;
+    }
+
+    .job_posting.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    margin-left: 740px;
+    }
+
+    .job_posting.images a {
+    display: inline-block;
+    margin: 10px;
+    }
+
+    .job_posting.images a img {
+    width: 200px; /* 원하는 이미지 너비로 설정 */
+    height: auto; /* 높이 자동 조정 */
+    } 
+
+    .button{
+        width: 100;
+        height: 100;
+        font-size: 16;
+        text-align: center;
+        margin-top: 120px;
+        margin-top: 120px;
+    }
+
+
+
+</style>
+
+<body>
+    <!--상단바-->
+    <nav class="navbar navbar-expand-sm" style="background-color: transparent;">
+        <div class="container-fluid d-flex justify-content-center">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" style="font-size: 25px; color: #000000;">로고</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-size: 25px; color: #000000;">채용공고</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-size: 25px; color: #000000;">이벤트</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-size: 25px; color: #000000; margin-right: 120px;">고객센터</a>
+                </li>
+
+                <li class="nav-item d-flex align-items-center">
+                    <img src="/images/돋보기.png" alt="" style="margin-right: 5px;">
+                    <img src="/images/이력서.png" alt="" style="margin-right: 10px;">
+                    <button type="button" class="btn btn-secondary btn-lg" style="margin-right: 5px;">회원가입</button>
+                    <button type="button" class="btn btn-secondary btn-lg">로그인</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--상단바-->
+
+    <!--구분선-->
+    <hr style="border-color: #000000;">
+    <!--구분선-->
+
+    <div class="job_posting">채용 공고</div>
+
+
+    <div class="job_posting images">
+        <a href="http://www.naver.com" class="rounded_image">
+            <img src="/images/파워링크사진.png" />
+        </a>
+        <a href="http://www.naver.com" class="rounded-image">
+            <img src="/images/파워링크사진.png" />
+        </a>
+        <a href="http://www.naver.com" class="rounded-image">
+            <img src="/images/파워링크사진.png" />
+        </a>
+        <a href="http://www.naver.com" class="rounded-image">
+            <img src="/images/파워링크사진.png" />
+        </a>
+    </div>
+
+    <div class="job_posting images" style="margin-top: 30px;">
+        <a href="http://www.naver.com" class="rounded_image">
+            <img src="/images/파워링크사진.png" />
+        </a>
+        <a href="http://www.naver.com" class="rounded-image">
+            <img src="/images/파워링크사진.png" />
+        </a>
+        <a href="http://www.naver.com" class="rounded-image">
+            <img src="/images/파워링크사진.png" />
+        </a>
+        <a href="http://www.naver.com" class="rounded-image">
+            <img src="/images/파워링크사진.png" />
+        </a>
+    </div>
+
+    <div class="button">
+        <button type="button" class="btn btn-secondary Prev">Prev</button>
+        <button type="button" class="btn btn-secondary Next">Next</button>
+      </div>
+</body>
+
+</html>
